@@ -217,10 +217,10 @@
         .contact-link {
             display: inline-flex;
             align-items: center;
-            gap: 8px;
-            padding: 10px 20px;
-            background: #007acc;
-            color: white;
+            width: 70px;
+            height: 70px;
+            padding: 10px 10px;
+            color: #white;
             text-decoration: none;
             border-radius: 5px;
             font-weight: 500;
@@ -228,7 +228,7 @@
         }
 
         .contact-link:hover {
-            background: #005c99;
+            background: #e0f2ff;
         }
 
         @media (max-width: 768px) {
